@@ -3181,3 +3181,20 @@ body {
 header h2 {
 	color: white;
 }
+
+#RepairContainer {
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.backbutton {
+  float: left;
+}
+
+.options {
+  margin: 5px;
+  margin-top: 10px;
+}
