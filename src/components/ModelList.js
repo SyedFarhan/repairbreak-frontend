@@ -1,24 +1,97 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Redirect, Switch, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { withRouter } from 'react-router';
+import SelectionLink from './SelectionLink.js';
 
 
-const ModelList = () => {
-  return (
-    <div class="inner" id="RepairContainer">
-      <Link to="/repair" href="/repair" class="fa-arrow backbutton">Back</Link>
-      <h2>Which model iPhone?</h2>
-      <hr />
-      <Link to="/repair/iphone/x" href="/repair" class="button options">X</Link>
-      <Link to="/repair/iphone/8plus" href="/sell" class="button options">8 Plus</Link>
-      <Link to="/repair/iphone/8" href="/sell" class="button options">8</Link>
-      <Link to="/repair/iphone/7plus" href="/sell" class="button options">7 Plus</Link>
-      <Link to="/repair/iphone/7" href="/sell" class="button options">7</Link>
-      <Link to="/repair/iphone/6splus" href="/sell" class="button options">6S Plus</Link>
-      <Link to="/repair/iphone/6s" href="/sell" class="button options">6S</Link>
-      <Link to="/repair/iphone/6plus" href="/sell" class="button options">6 Plus</Link>
-      <Link to="/repair/iphone/6" href="/sell" class="button options">6</Link>
-    </div>
-  );
-};
+class ModelList extends Component {
+  currentPathname = this.props.history.location.pathname;
 
-export default ModelList;
+  onSelect = (evt) => {
+    const selection = evt.target;
+    const selectionType = selection.getAttribute('selectiontype');
+    const selectionName = selection.name;
+    this.props.onSelection(selectionType, selectionName);
+  }
+
+  render() {
+    return (
+      <div class="inner" id="RepairContainer">
+        <Link to="/repair" href="/repair" class="fa-arrow backbutton">Back</Link>
+        <h2>Which model iPhone?</h2>
+        <hr />
+        <SelectionLink
+          currentPathname={this.currentPathname}
+          name="x"
+          onSelect={this.onSelect}
+          selectiontype="model"
+        />
+
+        <SelectionLink
+          currentPathname={this.currentPathname}
+          name="8plus"
+          onSelect={this.onSelect}
+          selectiontype="model"
+        />
+
+        <SelectionLink
+          currentPathname={this.currentPathname}
+          name="8"
+          onSelect={this.onSelect}
+          selectiontype="model"
+        />
+
+        <SelectionLink
+          currentPathname={this.currentPathname}
+          name="7plus"
+          onSelect={this.onSelect}
+          selectiontype="model"
+        />
+
+        <SelectionLink
+          currentPathname={this.currentPathname}
+          name="7"
+          onSelect={this.onSelect}
+          selectiontype="model"
+        />
+
+        <SelectionLink
+          currentPathname={this.currentPathname}
+          name="6splus"
+          onSelect={this.onSelect}
+          selectiontype="model"
+        />
+
+        <SelectionLink
+          currentPathname={this.currentPathname}
+          name="6s"
+          onSelect={this.onSelect}
+          selectiontype="model"
+        />
+
+        <SelectionLink
+          currentPathname={this.currentPathname}
+          name="6plus"
+          onSelect={this.onSelect}
+          selectiontype="model"
+        />
+
+        <SelectionLink
+          currentPathname={this.currentPathname}
+          name="6"
+          onSelect={this.onSelect}
+          selectiontype="model"
+        />
+
+        <SelectionLink
+          currentPathname={this.currentPathname}
+          name="5s"
+          onSelect={this.onSelect}
+          selectiontype="model"
+        />
+      </div>
+    );
+  }
+}
+
+export default withRouter(ModelList);

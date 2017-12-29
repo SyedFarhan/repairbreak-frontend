@@ -1,28 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/Navbar.js';
-import Banner from './components/Banner.js'
-import BannerContent from './components/BannerContent.js';
-import RepairScheduler from './components/RepairScheduler.js';
-import Warranty from './components/Warranty.js';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Redirect, Switch, Link } from 'react-router-dom';
+import PhoneList from './PhoneList.js';
+import ModelList from './ModelList.js';
+import ProblemList from './ProblemList.js';
 
 
-class App extends Component {
+
+class RepairMenu extends Component {
   render() {
     return (
-      <Router>
-        <div className="App">
-          <Navbar />
-          <Banner>
-            <Route exact path="/" component={BannerContent} />
-            <Route path ="/repair" component={RepairScheduler}/>
-          </Banner>
-        </div>
-      </Router>
+      <div id="RepairContainer">
+        <h1>{this.props.selectedDevice}</h1> <h1>{this.props.selectedModel}</h1>
+        <Route exact path="/repair" component={() => <PhoneList onSelection={this.props.onSelection} /> } />
+        <Route exact path="/repair/iphone" component={() => <ModelList onSelection={this.props.onSelection} /> } />
+        <Route exact path="/repair/galaxy" component={() => <div class="inner" id="RepairContainer"><h1>Galaxy</h1></div>} />
+        <Route path="/repair/iphone/*" component={ProblemList} />
+      </div>
     );
   }
 }
 
-export default App;
+export default RepairMenu;

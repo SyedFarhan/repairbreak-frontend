@@ -5,7 +5,7 @@ import Navbar from './components/Navbar.js';
 import Banner from './components/Banner.js'
 import BannerContent from './components/BannerContent.js';
 import RepairScheduler from './components/RepairScheduler.js';
-import Warranty from './components/Warranty.js';
+import RepairContainer from './components/RepairContainer';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 
@@ -17,7 +17,7 @@ class App extends Component {
           <Navbar />
           <Banner>
             <Route exact path="/" component={BannerContent} />
-            <Route path ="/repair" component={RepairScheduler}/>
+            <Route path ="/repair" component={RepairContainer}/>
           </Banner>
         </div>
       </Router>

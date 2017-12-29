@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Redirect, Switch, Link } from 'react-router-dom';
-
+import { Link } from 'react-router-dom';
+import { withRouter } from 'react-router';
+import SelectionLink from './SelectionLink.js';
 
 const ProblemList = () => {
   return (
