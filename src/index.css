@@ -3221,23 +3221,22 @@ textarea {
   grid-column-gap: 5%;
 }
 
-.menutitle {
-  color: white;
-}
 
 /* RepairContainer */
 
-/* RepairMenu */
-
-/* PhoneList */
-
-#PhoneList-text {
+.RepairHeader-text {
     color: white;
 }
 
 .backbutton {
     text-decoration: none;
 }
+
+/* RepairMenu */
+
+/* PhoneList */
+
+
 
 /* ModelList */
 

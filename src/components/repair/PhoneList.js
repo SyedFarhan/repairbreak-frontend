@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
 import {withRouter} from 'react-router';
 import SelectionLink from '../misc/SelectionLink.js';
+import MenuHeader from "../misc/MenuHeader";
 
 
 class PhoneList extends Component {
@@ -17,12 +17,8 @@ class PhoneList extends Component {
 
     render() {
         return (
-            <div class="inner" id="RepairContainer">
-                <div class="headergrid">
-                    <Link to="/" href="/" class="fa fa-chevron-left fa-2x backbutton"></Link>
-                    <h2 id="PhoneList-text">Select a device...</h2>
-                </div>
-                <hr/>
+            <div>
+                <MenuHeader previousPath="/" headerText="Select a device..." />
                 <SelectionLink
                     currentPathname={this.currentPathname}
                     name="iphone"

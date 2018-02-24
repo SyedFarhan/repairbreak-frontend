@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router';
 import SelectionLink from '../../misc/SelectionLink.js';
+import MenuHeader from "../../misc/MenuHeader";
 
 
 class ModelList extends Component {
@@ -17,11 +18,7 @@ class ModelList extends Component {
   render() {
     return (
       <div>
-        <div class="headergrid">
-          <Link to="/repair" href="/repair" class="fa-arrow backbutton">Back</Link>
-          <h2 class="menutitle">Select the iPhone model...</h2>
-        </div>
-        <hr />
+        <MenuHeader previousPath="/repair" headerText="Select the iPhone model..." />
         <div class="grid">
           <SelectionLink
             currentPathname={this.currentPathname}

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router';
 import SelectionLink from '../../misc/SelectionLink.js';
+import MenuHeader from "../../misc/MenuHeader";
 
 class ProblemList extends Component {
   currentPathname = this.props.history.location.pathname;
@@ -16,10 +17,8 @@ class ProblemList extends Component {
 
   render() {
     return (
-      <div class="inner" id="RepairContainer">
-        <Link to="/repair/iphone" href="/repair/iphone" class="backbutton">Back</Link>
-        <h2>Whats the problem?</h2>
-        <hr />
+      <div>
+          <MenuHeader previousPath="/repair/iphone" headerText="Whats the problem?" />
         <SelectionLink
           currentPathname={this.currentPathname}
           name="Cracked Screen"
