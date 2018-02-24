@@ -12,14 +12,14 @@ class ModelList extends Component {
     const selectionType = selection.getAttribute('selectiontype');
     const selectionName = selection.name;
     this.props.onSelection(selectionType, selectionName);
-  }
+  };
 
   render() {
     return (
       <div>
         <div class="headergrid">
           <Link to="/repair" href="/repair" class="fa-arrow backbutton">Back</Link>
-          <h2 class="menutitle">Which model iPhone?</h2>
+          <h2 class="menutitle">Select the iPhone model...</h2>
         </div>
         <hr />
         <div class="grid">

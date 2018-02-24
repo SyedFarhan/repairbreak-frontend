@@ -12,7 +12,7 @@ class ProblemList extends Component {
     const selectionName = selection.name;
     console.log(selection);
     this.props.onSelection(selectionType, selectionName);
-  }
+  };
 
   render() {
     return (

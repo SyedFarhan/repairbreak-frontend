@@ -5,6 +5,6 @@ square = (x, y) => {
     squared = x * squared;
   }
   console.log(squared);
-}
+};
 
 square(3,-3);

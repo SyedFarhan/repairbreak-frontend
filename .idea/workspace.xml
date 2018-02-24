@@ -2,20 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aca7fcb-3b25-430b-aa90-dd335e7406c5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/Banner.js" afterPath="$PROJECT_DIR$/src/components/homepage/Banner.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/BannerContent.js" afterPath="$PROJECT_DIR$/src/components/homepage/BannerContent.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/Icon.js" afterPath="$PROJECT_DIR$/src/components/misc/Icon.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/ModelList.js" afterPath="$PROJECT_DIR$/src/components/repair/modelpicker/ModelList.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" afterPath="$PROJECT_DIR$/src/components/misc/Navbar.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/PhoneList.js" afterPath="$PROJECT_DIR$/src/components/repair/PhoneList.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProblemList.js" afterPath="$PROJECT_DIR$/src/components/repair/problempicker/ProblemList.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/RepairContainer.js" afterPath="$PROJECT_DIR$/src/components/repair/RepairContainer.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/RepairMenu.js" afterPath="$PROJECT_DIR$/src/components/repair/RepairMenu.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/RepairScheduler.js" afterPath="$PROJECT_DIR$/src/components/RepairScheduler.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/SelectionLink.js" afterPath="$PROJECT_DIR$/src/components/misc/SelectionLink.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/Warranty.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change beforePath="$PROJECT_DIR$/square.js" afterPath="$PROJECT_DIR$/square.js" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/util.js" afterPath="$PROJECT_DIR$/src/assets/js/util.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/repair/PhoneList.js" afterPath="$PROJECT_DIR$/src/components/repair/PhoneList.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/repair/RepairContainer.js" afterPath="$PROJECT_DIR$/src/components/repair/RepairContainer.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/repair/RepairMenu.js" afterPath="$PROJECT_DIR$/src/components/repair/RepairRouter.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/repair/modelpicker/ModelList.js" afterPath="$PROJECT_DIR$/src/components/repair/modelpicker/ModelList.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/repair/problempicker/ProblemList.js" afterPath="$PROJECT_DIR$/src/components/repair/problempicker/ProblemList.js" />
+      <change beforePath="$PROJECT_DIR$/src/font-awesome.min.css" afterPath="$PROJECT_DIR$/src/font-awesome.min.css" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/src/assets/css/fonts/FontAwesome.otf" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/src/assets/css/fonts/fontawesome-webfont.eot" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/src/assets/css/fonts/fontawesome-webfont.svg" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/src/assets/css/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/src/assets/css/fonts/fontawesome-webfont.woff" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/src/assets/css/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" afterPath="$PROJECT_DIR$/src/index.css" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,97 +35,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RepairContainer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/repair/RepairContainer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RepairMenu.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/repair/RepairMenu.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModelList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/repair/modelpicker/ModelList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PhoneList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/repair/PhoneList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RepairScheduler.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/RepairScheduler.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelectionLink.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/misc/SelectionLink.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelectionsList.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/SelectionsList.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,20 +50,20 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="770">
+              <caret line="3238" column="26" lean-forward="true" selection-start-line="3238" selection-start-column="26" selection-end-line="3238" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
+      <file leaf-file-name="PhoneList.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/repair/PhoneList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,7 +81,11 @@
         <option value="$PROJECT_DIR$/src/components/homepage/BannerContent.js" />
         <option value="$PROJECT_DIR$/src/components/repair/RepairContainer.js" />
         <option value="$PROJECT_DIR$/src/components/repair/RepairMenu.js" />
+        <option value="$PROJECT_DIR$/src/components/repair/modelpicker/ModelList.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/repair/PhoneList.js" />
+        <option value="$PROJECT_DIR$/src/index.css" />
       </list>
     </option>
   </component>
@@ -175,8 +101,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -251,6 +178,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="repairbreak-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repairbreak-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="repair" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -264,14 +198,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/css" />
       <recent name="$PROJECT_DIR$/src/components/misc" />
       <recent name="$PROJECT_DIR$/src/components/repair/problempicker" />
       <recent name="$PROJECT_DIR$/src/components/repair/modelpicker" />
       <recent name="$PROJECT_DIR$/src/components/repair" />
-      <recent name="$PROJECT_DIR$/src/components/homepage" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -300,34 +235,34 @@
       <option name="presentableId" value="Default" />
       <updated>1519439328737</updated>
       <workItem from="1519439330976" duration="543000" />
-      <workItem from="1519439889873" duration="1141000" />
+      <workItem from="1519439889873" duration="4380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1684000" />
+    <option name="totallyTimeSpent" value="4923000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1953125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1839237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1839237" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -347,7 +282,7 @@
         <state relative-caret-position="150">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -365,7 +300,7 @@
         <state relative-caret-position="495">
           <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -384,7 +319,7 @@
         <state relative-caret-position="195">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -394,8 +329,117 @@
         <state relative-caret-position="240">
           <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/RepairScheduler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/misc/SelectionLink.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SelectionsList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/repair/modelpicker/ModelList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/components</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/src/components/homepage/Banner.js#Component#16;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/homepage/Banner.js#Icon#141;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/homepage/Banner.js#Link#101;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/homepage/Banner.js#React#7;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/homepage/Banner.js#Redirect#83;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/homepage/Banner.js#Route#76;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/homepage/Banner.js#Router#51;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/homepage/Banner.js#Switch#93;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/homepage/BannerContent.js#Component#16;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/homepage/BannerContent.js#Icon#141;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/homepage/BannerContent.js#Link#101;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/homepage/BannerContent.js#React#7;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/homepage/BannerContent.js#Redirect#83;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/homepage/BannerContent.js#Route#76;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/homepage/BannerContent.js#Router#51;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/homepage/BannerContent.js#Switch#93;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/misc/Icon.js#Component#16;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/misc/Icon.js#React#7;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/repair/modelpicker/ModelList.js#Component#16;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/modelpicker/ModelList.js#Link#51;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/modelpicker/ModelList.js#React#7;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/modelpicker/ModelList.js#SelectionLink#133;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/modelpicker/ModelList.js#withRouter#92;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/misc/Navbar.js#Component#16;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/misc/Navbar.js#Link#51;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/misc/Navbar.js#React#7;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/repair/PhoneList.js#Component#16;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/PhoneList.js#Link#51;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/PhoneList.js#React#7;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/PhoneList.js#SelectionLink#133;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/PhoneList.js#withRouter#92;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/repair/problempicker/ProblemList.js#Component#16;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/problempicker/ProblemList.js#Link#51;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/problempicker/ProblemList.js#React#7;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/problempicker/ProblemList.js#SelectionLink#133;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/problempicker/ProblemList.js#withRouter#92;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/repair/RepairContainer.js#Component#16;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/RepairContainer.js#Link#103;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/RepairContainer.js#React#7;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/RepairContainer.js#RepairMenu#50;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/RepairContainer.js#Route#96;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/repair/RepairRouter.js#Component#16;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/RepairRouter.js#Link#101;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/RepairRouter.js#ModelList#180;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/RepairRouter.js#PhoneList#140;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/RepairRouter.js#ProblemList#232;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/RepairRouter.js#React#7;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/RepairRouter.js#Redirect#83;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/RepairRouter.js#Route#76;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/RepairRouter.js#Router#51;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/RepairRouter.js#SelectionsList#290;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/RepairRouter.js#Switch#93;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/repair/RepairRouter.js#TextField#341;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/RepairScheduler.js#Component#16;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/RepairScheduler.js#Link#101;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/RepairScheduler.js#ModelList#187;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/RepairScheduler.js#PhoneList#140;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/RepairScheduler.js#ProblemList#246;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/RepairScheduler.js#React#7;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/RepairScheduler.js#Redirect#83;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/RepairScheduler.js#Route#76;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/RepairScheduler.js#Router#51;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/RepairScheduler.js#Switch#93;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/misc/SelectionLink.js#Component#16;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/misc/SelectionLink.js#Link#51;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/misc/SelectionLink.js#React#7;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/SelectionsList.js#Component#16;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/SelectionsList.js#Link#51;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/SelectionsList.js#React#7;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/TextField.js#Component#16;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/TextField.js#Link#51;/Users/Syed/code/src/github.com/syedfarhan/repairbreak-frontend/src/components/TextField.js#React#7;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react/index.js</node>
+            <node x="" y="">BrowserRouter;Link;Redirect;Route;Switch;</node>
+            <node x="" y="">withRouter;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react/cjs/react.development.js#Component#43988;</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7492063492063492" x="659.0" y="620.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/repair/RepairContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/font-awesome/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -409,90 +453,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="16" column="76" lean-forward="false" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/repair/RepairRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/repair/RepairContainer.js">
+    <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/repair/modelpicker/ModelList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="770">
+          <caret line="3238" column="26" lean-forward="true" selection-start-line="3238" selection-start-column="26" selection-end-line="3238" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/repair/PhoneList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/repair/RepairMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RepairScheduler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/misc/SelectionLink.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SelectionsList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
