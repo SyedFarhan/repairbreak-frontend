@@ -16,79 +16,83 @@ class ModelList extends Component {
 
   render() {
     return (
-      <div class="inner" id="RepairContainer">
-        <Link to="/repair" href="/repair" class="fa-arrow backbutton">Back</Link>
-        <h2>Which model iPhone?</h2>
+      <div>
+        <div class="headergrid">
+          <Link to="/repair" href="/repair" class="fa-arrow backbutton">Back</Link>
+          <h2 class="menutitle">Which model iPhone?</h2>
+        </div>
         <hr />
-        <SelectionLink
-          currentPathname={this.currentPathname}
-          name="x"
-          onSelect={this.onSelect}
-          selectiontype="model"
-        />
+        <div class="grid">
+          <SelectionLink
+            currentPathname={this.currentPathname}
+            name="x"
+            onSelect={this.onSelect}
+            selectiontype="model"
+          />
 
-        <SelectionLink
-          currentPathname={this.currentPathname}
-          name="8plus"
-          onSelect={this.onSelect}
-          selectiontype="model"
-        />
+          <SelectionLink
+            currentPathname={this.currentPathname}
+            name="8plus"
+            onSelect={this.onSelect}
+            selectiontype="model"
+          />
 
-        <SelectionLink
-          currentPathname={this.currentPathname}
-          name="8"
-          onSelect={this.onSelect}
-          selectiontype="model"
-        />
+          <SelectionLink
+            currentPathname={this.currentPathname}
+            name="8"
+            onSelect={this.onSelect}
+            selectiontype="model"
+          />
 
-        <SelectionLink
-          currentPathname={this.currentPathname}
-          name="7plus"
-          onSelect={this.onSelect}
-          selectiontype="model"
-        />
+          <SelectionLink
+            currentPathname={this.currentPathname}
+            name="7plus"
+            onSelect={this.onSelect}
+            selectiontype="model"
+          />
 
-        <SelectionLink
-          currentPathname={this.currentPathname}
-          name="7"
-          onSelect={this.onSelect}
-          selectiontype="model"
-        />
+          <SelectionLink
+            currentPathname={this.currentPathname}
+            name="7"
+            onSelect={this.onSelect}
+            selectiontype="model"
+          />
 
-        <SelectionLink
-          currentPathname={this.currentPathname}
-          name="6splus"
-          onSelect={this.onSelect}
-          selectiontype="model"
-        />
+          <SelectionLink
+            currentPathname={this.currentPathname}
+            name="6splus"
+            onSelect={this.onSelect}
+            selectiontype="model"
+          />
 
-        <SelectionLink
-          currentPathname={this.currentPathname}
-          name="6s"
-          onSelect={this.onSelect}
-          selectiontype="model"
-        />
+          <SelectionLink
+            currentPathname={this.currentPathname}
+            name="6s"
+            onSelect={this.onSelect}
+            selectiontype="model"
+          />
 
-        <SelectionLink
-          currentPathname={this.currentPathname}
-          name="6plus"
-          onSelect={this.onSelect}
-          selectiontype="model"
-        />
+          <SelectionLink
+            currentPathname={this.currentPathname}
+            name="6plus"
+            onSelect={this.onSelect}
+            selectiontype="model"
+          />
 
-        <SelectionLink
-          currentPathname={this.currentPathname}
-          name="6"
-          onSelect={this.onSelect}
-          selectiontype="model"
-        />
+          <SelectionLink
+            currentPathname={this.currentPathname}
+            name="6"
+            onSelect={this.onSelect}
+            selectiontype="model"
+          />
 
-        <SelectionLink
-          currentPathname={this.currentPathname}
-          name="5s"
-          onSelect={this.onSelect}
-          selectiontype="model"
-        />
+          <SelectionLink
+            currentPathname={this.currentPathname}
+            name="5s"
+            onSelect={this.onSelect}
+            selectiontype="model"
+          />
+        </div>
       </div>
     );
   }

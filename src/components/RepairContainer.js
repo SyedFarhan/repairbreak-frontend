@@ -23,7 +23,7 @@ class RepairContainer extends Component {
   render() {
       return (
         <div class="inner" id="RepairContainer">
-          <RepairMenu onSelection={this.onSelection} selectedDevice={this.state.selections.device} selectedModel={this.state.selections.model} />
+          <RepairMenu onSelection={this.onSelection} selections={this.state.selections} />
         </div>
       );
   }

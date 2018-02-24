@@ -3187,7 +3187,7 @@ header h2 {
   width: 1000px;
   height: 600px;
   margin: 0 auto;
-  background-color:rgba(0, 0, 0, 0.5);
+  background-color:rgba(0, 0, 0, 0.1);
 }
 
 .backbutton {
@@ -3197,4 +3197,30 @@ header h2 {
 .options {
   margin: 5px;
   margin-top: 10px;
+}
+
+textarea {
+  max-width: 400px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.grid {
+  max-width: auto;
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  grid-template-rows: 10%;
+  grid-column-gap: 1%;
+  grid-row-gap: 2%;
+}
+
+.headergrid {
+  max-width: auto;
+  display: grid;
+  grid-template-columns: 5% auto 5%;
+  grid-column-gap: 5%;
+}
+
+.menutitle {
+  color: white;
 }
