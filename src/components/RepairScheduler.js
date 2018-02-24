@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Redirect, Switch, Link } from 'react-router-dom';
-import PhoneList from './PhoneList.js';
-import ModelList from './ModelList.js';
-import ProblemList from './ProblemList.js';
+import PhoneList from './repair/PhoneList.js';
+import ModelList from './repair/modelpicker/ModelList.js';
+import ProblemList from './repair/problempicker/ProblemList.js';
 
 
 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router';
-import SelectionLink from './SelectionLink.js';
+import SelectionLink from '../../misc/SelectionLink.js';
 
 class ProblemList extends Component {
   currentPathname = this.props.history.location.pathname;
