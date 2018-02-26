@@ -1,32 +1,31 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
-import RepairMenu from './RepairRouter.js';
-import { Route, Link } from 'react-router-dom';
-
+import RepairRouter from './RepairRouter.js';
 
 class RepairContainer extends Component {
-  state = {
-    selections: {
-      device: "",
-      model: "",
-      problem: "",
-    },
-  };
+    state = {
+        selections: {
+            device: "",
+            model: "",
+            problem: "",
+            additionalInfo: "",
+        },
+    };
 
-  onSelection = (selectionType, selectionName) => {
-    const selections = this.state.selections;
-    selections[selectionType] = selectionName;
-    this.setState({ selections: selections });
-    console.log(this.state.selections);
-  };
+    onSelection = (selectionType, selectionName) => {
+        const selections = this.state.selections;
+        selections[selectionType] = selectionName;
+        this.setState({selections: selections});
+        console.log(this.state.selections);
+    };
 
-  render() {
-      return (
-        <div class="inner" id="RepairContainer">
-          <RepairMenu onSelection={this.onSelection} selections={this.state.selections} />
-        </div>
-      );
-  }
+    render() {
+        return (
+            <div className="inner" id="RepairContainer">
+                <RepairRouter onSelection={this.onSelection} selections={this.state.selections}/>
+            </div>
+        );
+    }
 }
 
 export default RepairContainer;

@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Redirect, Switch, Link } from 'react-router-dom';
-
+import { Link } from 'react-router-dom';
+import Client from '../../api.js';
 import Icon from '../misc/Icon.js';
 
 export default class BannerContent extends Component {
   render() {
     return (
-        <div class="inner">
+        <div className="inner">
             <header>
               <h1>Metro Detroit iPhone Repair</h1>
               <h2>Relax. We'll fix it.</h2>
             </header>
 
-            <div class="flex">
+            <div className="flex">
               <Icon
                 iconType="icon fa-car"
                 title="Mobile Repairs"
@@ -33,7 +33,9 @@ export default class BannerContent extends Component {
             </div>
 
             <footer>
-                <Link to="/repair" href="/repair" class="button">schedule a repair</Link> <Link to="/sell" href="/sell" class="button">sell a device</Link>
+                <Link to="/repair" href="/repair" className="button">schedule a repair</Link> <Link to="/sell" href="/sell" className="button">sell a device</Link>
+                <button onClick={Client.getCustomers}></button>
+                <button onClick={Client.getOneCustomer}></button>
             </footer>
         </div>
     );

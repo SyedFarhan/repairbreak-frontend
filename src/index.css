@@ -3230,8 +3230,12 @@ textarea {
 
 .backbutton {
     text-decoration: none;
+	color: rgba(108, 192, 145, 1);
 }
 
+.backbutton:hover {
+	color: rgba(108, 192, 145, 0.5);
+}
 /* RepairMenu */
 
 /* PhoneList */

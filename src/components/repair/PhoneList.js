@@ -8,6 +8,7 @@ class PhoneList extends Component {
     currentPathname = this.props.history.location.pathname;
 
     onSelect = (evt) => {
+        console.log(this.currentPathname);
         const selection = evt.target;
         const selectionType = selection.getAttribute('selectiontype');
         const selectionName = selection.name;
