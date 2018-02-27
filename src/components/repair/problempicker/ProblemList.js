@@ -18,7 +18,7 @@ class ProblemList extends Component {
   render() {
     return (
       <div>
-          <MenuHeader previousPath="/repair/iphone" headerText="Whats the problem?" />
+          <MenuHeader headerText="Whats the problem?" />
         <SelectionLink
           currentPathname={this.currentPathname}
           name="Cracked Screen"

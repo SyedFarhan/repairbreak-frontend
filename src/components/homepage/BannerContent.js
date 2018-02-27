@@ -34,8 +34,8 @@ export default class BannerContent extends Component {
 
             <footer>
                 <Link to="/repair" href="/repair" className="button">schedule a repair</Link> <Link to="/sell" href="/sell" className="button">sell a device</Link>
-                <button onClick={Client.getCustomers}></button>
-                <button onClick={Client.getOneCustomer}></button>
+                <button onClick={Client.getCustomers} />
+                <button onClick={Client.getOneCustomer} />
             </footer>
         </div>
     );

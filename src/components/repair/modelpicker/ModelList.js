@@ -18,7 +18,7 @@ class ModelList extends Component {
   render() {
     return (
       <div>
-        <MenuHeader previousPath="/repair" headerText="Select the iPhone model..." />
+        <MenuHeader headerText="Select the iPhone model..." />
         <div class="grid">
           <SelectionLink
             currentPathname={this.currentPathname}

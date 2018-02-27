@@ -8,10 +8,10 @@ import ProblemList from './repair/problempicker/ProblemList.js';
 
 const RepairScheduler = () => {
   return (
-    <div class="inner" id="RepairContainer">
+    <div className="inner" id="RepairContainer">
       <Route exact path="/repair" component={PhoneList} />
       <Route exact path="/repair/iphone" component={ModelList} />
-      <Route exact path="/repair/galaxy" component={() => <div class="inner" id="RepairContainer"><h1>Galaxy</h1></div>} />
+      <Route exact path="/repair/galaxy" component={() => <div className="inner" id="RepairContainer"><h1>Galaxy</h1></div>} />
       <Route path="/repair/iphone/*" component={ProblemList} />
     </div>
   );

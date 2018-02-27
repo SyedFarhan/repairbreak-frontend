@@ -19,7 +19,7 @@ class PhoneList extends Component {
     render() {
         return (
             <div>
-                <MenuHeader previousPath="/" headerText="Select a device..." />
+                <MenuHeader headerText="Select a device..." />
                 <SelectionLink
                     currentPathname={this.currentPathname}
                     name="iphone"

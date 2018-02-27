@@ -3214,7 +3214,7 @@ textarea {
   grid-row-gap: 2%;
 }
 
-.headergrid {
+.header-grid {
   max-width: auto;
   display: grid;
   grid-template-columns: 5% auto 5%;
@@ -3228,12 +3228,12 @@ textarea {
     color: white;
 }
 
-.backbutton {
+.back-button {
     text-decoration: none;
 	color: rgba(108, 192, 145, 1);
 }
 
-.backbutton:hover {
+.back-button:hover {
 	color: rgba(108, 192, 145, 0.5);
 }
 /* RepairMenu */
@@ -3244,8 +3244,15 @@ textarea {
 
 /* ModelList */
 
-/* */
+/* ProblemList */
 
-/* */
+/* Contact Info */
+.contactInfoGrid {
+	max-width: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 1%;
+	justify-items: center;
+}
 
 /* */
