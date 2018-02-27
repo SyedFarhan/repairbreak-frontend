@@ -18,7 +18,7 @@ class RepairRouter extends Component {
             <Route exact path="/repair/galaxy" component={() => <MenuHeader headerText="Galaxy" /> } />
           <Switch>
             <Route path="/repair/iphone/*/*/*" component={() => <SelectionsList selections={this.props.selections} /> } />
-            <Route path="/repair/iphone/*/*" component={() => <TextField onSelection={this.props.onSelection} /> } />
+            <Route path="/repair/iphone/*/*" component={() => <TextField onCustomerInputChange={this.props.onCustomerInputChange} customer={this.props.customer} /> } />
             <Route path="/repair/iphone/*" component={() => <ProblemList onSelection={this.props.onSelection} /> } />
           </Switch>
           <Route exact path="/repair/overview" component={() => <h1>Overview</h1>} />

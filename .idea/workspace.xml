@@ -3,15 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0aca7fcb-3b25-430b-aa90-dd335e7406c5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/components/RepairScheduler.js" afterPath="$PROJECT_DIR$/src/components/RepairScheduler.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/homepage/BannerContent.js" afterPath="$PROJECT_DIR$/src/components/homepage/BannerContent.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/misc/Icon.js" afterPath="$PROJECT_DIR$/src/components/misc/Icon.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/misc/MenuHeader.js" afterPath="$PROJECT_DIR$/src/components/misc/MenuHeader.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/repair/PhoneList.js" afterPath="$PROJECT_DIR$/src/components/repair/PhoneList.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/repair/RepairContainer.js" afterPath="$PROJECT_DIR$/src/components/repair/RepairContainer.js" />
       <change beforePath="$PROJECT_DIR$/src/components/repair/RepairRouter.js" afterPath="$PROJECT_DIR$/src/components/repair/RepairRouter.js" />
       <change beforePath="$PROJECT_DIR$/src/components/repair/TextField.js" afterPath="$PROJECT_DIR$/src/components/repair/TextField.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/repair/modelpicker/ModelList.js" afterPath="$PROJECT_DIR$/src/components/repair/modelpicker/ModelList.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/repair/problempicker/ProblemList.js" afterPath="$PROJECT_DIR$/src/components/repair/problempicker/ProblemList.js" />
       <change beforePath="$PROJECT_DIR$/src/index.css" afterPath="$PROJECT_DIR$/src/index.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,7 +19,52 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TextField.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/repair/TextField.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RepairRouter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/repair/RepairRouter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="117" lean-forward="true" selection-start-line="21" selection-start-column="117" selection-end-line="21" selection-end-column="117" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RepairContainer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/repair/RepairContainer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="3252" column="35" lean-forward="false" selection-start-line="3252" selection-start-column="34" selection-end-line="3252" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,18 +89,18 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/api.js" />
-        <option value="$PROJECT_DIR$/src/components/repair/RepairContainer.js" />
         <option value="$PROJECT_DIR$/src/components/misc/Navbar.js" />
         <option value="$PROJECT_DIR$/src/components/repair/PhoneList.js" />
         <option value="$PROJECT_DIR$/src/components/repair/modelpicker/ModelList.js" />
         <option value="$PROJECT_DIR$/src/components/repair/problempicker/ProblemList.js" />
-        <option value="$PROJECT_DIR$/src/components/repair/RepairRouter.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/components/repair/TextField.js" />
         <option value="$PROJECT_DIR$/src/components/RepairScheduler.js" />
         <option value="$PROJECT_DIR$/src/components/homepage/BannerContent.js" />
         <option value="$PROJECT_DIR$/src/components/misc/Icon.js" />
         <option value="$PROJECT_DIR$/src/components/misc/MenuHeader.js" />
+        <option value="$PROJECT_DIR$/src/components/repair/RepairRouter.js" />
+        <option value="$PROJECT_DIR$/src/components/repair/RepairContainer.js" />
+        <option value="$PROJECT_DIR$/src/components/repair/TextField.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
       </list>
     </option>
@@ -159,14 +198,7 @@
               <item name="repairbreak-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="homepage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repairbreak-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repairbreak-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="misc" type="462c0819:PsiDirectoryNode" />
+              <item name="repair" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -222,17 +254,18 @@
       <workItem from="1519439889873" duration="10969000" />
       <workItem from="1519623803127" duration="7052000" />
       <workItem from="1519682721055" duration="254000" />
-      <workItem from="1519690016456" duration="2872000" />
+      <workItem from="1519690016456" duration="6325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21690000" />
+    <option name="totallyTimeSpent" value="25143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -592,14 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/repair/RepairContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9090">
@@ -648,16 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/repair/RepairRouter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/misc/MenuHeader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -668,10 +683,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/repair/RepairContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/repair/RepairRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="117" lean-forward="true" selection-start-line="21" selection-start-column="117" selection-end-line="21" selection-end-column="117" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/repair/TextField.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="418">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -680,8 +713,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="3229" column="0" lean-forward="true" selection-start-line="3229" selection-start-column="0" selection-end-line="3229" selection-end-column="0" />
+        <state relative-caret-position="404">
+          <caret line="3252" column="35" lean-forward="false" selection-start-line="3252" selection-start-column="34" selection-end-line="3252" selection-end-column="35" />
           <folding />
         </state>
       </provider>

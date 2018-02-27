@@ -3250,9 +3250,18 @@ textarea {
 .contactInfoGrid {
 	max-width: auto;
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template:  "a a a" 500px 100px
+					". b ." 250px;
 	grid-column-gap: 1%;
 	justify-items: center;
+}
+
+#inputs {
+	grid-area: a;
+}
+
+#customerFormSubmit {
+	grid-area: b;
 }
 
 /* */
